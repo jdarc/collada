@@ -1,0 +1,16 @@
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+    <bindings schemalocation="collada_schema_1_5.xsd" version="1.5.0">
+        <bindings node="//xs:complexType[@name='skin_type']">
+            <bindings node=".//xs:attribute[@name='source']">
+                <property name="source_attr">
+                </property>
+            </bindings>
+        </bindings>
+        <bindings node="//xs:complexType[@name='morph_type']">
+            <bindings node=".//xs:attribute[@name='source']">
+                <property name="source_attr">
+                </property>
+            </bindings>
+        </bindings>
+    </bindings>
+</jaxb:bindings>
